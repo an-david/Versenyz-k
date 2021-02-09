@@ -49,7 +49,7 @@ namespace Versenyzők
                 {
                     if (Convert.ToInt32(versenyzok[i].Rajtszam) < l_rajtszam)
                     {
-                        l_rajtszam = Convert.ToInt32(versenyzok[i].Rajtszam); 
+                        l_rajtszam = Convert.ToInt32(versenyzok[i].Rajtszam);
                         l_rajtszam_index = i;
                     }
                 }
